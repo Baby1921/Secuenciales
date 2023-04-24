@@ -1,3 +1,4 @@
+//1. Calcular el monto a pagar en una cabina de Internet si el costo por hora es de 1200 pesos. 
 function cabinaInternet(){
 
     let costoPorHora = 1200;
@@ -8,6 +9,7 @@ function cabinaInternet(){
 
 }
 
+//2. Si una flota viaja a una velocidad 45km/h al centro de la ciudad y se gasta 2horas. ¿ A que velociad  viajara si segasta n horas?  
 function flota(){
 
     let velocidadInicial = 45;
@@ -20,6 +22,7 @@ function flota(){
     alert("Para llegar en " + n + " horas, se debe viajar a una velocidad de " + velocidad + " km/h.");
 }
 
+//3. Calcular el nuevo salario de un empleado si obtuvo un incremento del 10 % sobre su salario actual y un  descuento de 3, 5% por aportes obligatorios a parafiscales que corresponden al empleador en beneficio  de sus trabajadores. 
 function salario(){
     const salarioActual = parseInt(prompt('Ingrese el salario actual del trabajador'));
     const salarioConIncremento = salarioActual * 0.1;
@@ -29,6 +32,7 @@ function salario(){
 
 }
 
+//4. Hacer un programa que me capture por teclado un valor en pesos colombianos y me los convierta a  dólares y euros.  
 function convertirMoneda(){
 
     const tasaDolar = 3450.00;
@@ -43,6 +47,7 @@ function convertirMoneda(){
 
 }
 
+//5. Si un usuario desea invertir sus ganancias en un banco y desea saber cuánto dinero ganará después de  un año si el banco paga a razón de 1,5% mensual.  
 function ganacias(){
 
     const tasaInteresMensual = 0.015;
@@ -90,6 +95,7 @@ function ganacias(){
 
 }
 
+//6. Si un aprendiz desea saber cuál será su calificación final en programación de software. Dicha  calificación se compone de cuatro notas. 
 function calificacion(){
 
     const NUM_NOTAS = 4;
@@ -111,6 +117,7 @@ function calificacion(){
 
 }
 
+//7. Elevar al cubo un número y dividirlo en dos. 
 function operacion(){
 
     let numero = prompt("Ingrese un numero");
@@ -120,6 +127,7 @@ function operacion(){
 
 }
 
+//8. Convertir 10Hm a Km y dm. 
 function convertirDistancia(){
 
     let hm = 10;
@@ -130,6 +138,7 @@ function convertirDistancia(){
 
 }
 
+//9. Si un metro 1m equivale a 0.3048 pies (ft) y 0.0254 pulgadas(in). ¿convertir la distancia en metros a pies y  pulgadas? 
 function nueve(){
 
     let metros = prompt("Ingrese su numero en metros");
@@ -140,6 +149,7 @@ function nueve(){
 
 }
 
+//10. Hacer un programa que me convierta 25Kg a libras y arrobas. 
 function convertirPesos(){
 
     let kg = 25;
@@ -150,6 +160,7 @@ function convertirPesos(){
 
 }
 
+//11.Hacer un programa que me permita ingresar el valor de un artículo y la cantidad de una venta. Se le debe  calcular el IVA del 19% posteriormente se debe imprimir el total a cobrar. 
 function iva(){
 
     let valorArticulo = parseFloat(prompt("Ingrese el valor del artículo:"));
@@ -162,6 +173,7 @@ function iva(){
 
 }
 
+//12. Hacer un programa que me convierta 30Mb a Tb. 
 function convertirBytes(){
 
     let mb = 30;
@@ -171,6 +183,7 @@ function convertirBytes(){
 
 }
 
+//13. Hacer un programa que me convierta 16000Tb a Gb. 
 function convertirBytesDos(){
 
     let tb = 16000;
@@ -180,6 +193,7 @@ function convertirBytesDos(){
 
 }
 
+//14. Si el área de un círculo es pi multiplicado por el radio al cuadrado (A = π r²). hacer un programa que me  capture por teclado el diámetro de un circulo y postreramente me muestre el área del círculo. 
 function areaCirculo(){
 
     let diametro = prompt("Ingrese el diámetro del círculo: ");
